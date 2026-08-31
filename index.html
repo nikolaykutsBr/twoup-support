@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support — TwoUp</title>
+    <style>
+        :root {
+            --canvas: #F6F4F0;
+            --surface: #FFFFFF;
+            --bar: #EFEDE8;
+            --accent: #A56A16;
+            --accent-deep: #7A5310;
+            --accent-tint: #F3E7D2;
+            --text: #1D1B19;
+            --muted: #58534C;
+            --faint: #8B857C;
+            --border: #DCD8D1;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --canvas: #131211;
+                --surface: #1A1917;
+                --bar: #201F1C;
+                --accent: #E0A54B;
+                --accent-deep: #EFC787;
+                --accent-tint: #2B2417;
+                --text: #F2EFEA;
+                --muted: #A8A29A;
+                --faint: #75706A;
+                --border: #302E2A;
+            }
+        }
+        * { box-sizing: border-box; }
+        html, body { margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: var(--canvas);
+            color: var(--text);
+            line-height: 1.62;
+            min-height: 100vh;
+        }
+        .wrap { max-width: 760px; margin: 0 auto; padding: 40px 24px 80px; }
+        header { text-align: center; margin-bottom: 32px; }
+        .brand {
+            font-size: 13px; letter-spacing: 4px; text-transform: uppercase;
+            color: var(--accent); font-weight: 600; margin-bottom: 8px;
+        }
+        h1 { font-size: 32px; font-weight: 700; margin: 0 0 8px; }
+        .meta { color: var(--faint); font-size: 14px; }
+        .card {
+            background: var(--surface); border-radius: 16px; padding: 28px 24px;
+            border: 1px solid var(--border);
+        }
+        h2 { font-size: 19px; font-weight: 700; margin: 30px 0 12px; }
+        h2:first-child { margin-top: 0; }
+        h3 { font-size: 16px; font-weight: 600; margin: 20px 0 6px; }
+        p, ul, ol { margin: 0 0 14px; font-size: 15px; color: var(--muted); }
+        li { margin-bottom: 6px; }
+        ul, ol { padding-left: 22px; }
+        strong { color: var(--text); font-weight: 600; }
+        a { color: var(--accent); text-decoration: none; border-bottom: 1px solid currentColor; }
+        a:hover { color: var(--accent-deep); }
+        table { width: 100%; border-collapse: collapse; margin: 0 0 16px; font-size: 15px; }
+        th, td { text-align: left; padding: 9px 10px; border-bottom: 1px solid var(--border); color: var(--muted); }
+        th { color: var(--text); font-weight: 600; font-size: 14px; }
+        td.no { color: var(--text); font-weight: 600; white-space: nowrap; }
+        .lead {
+            background: var(--accent-tint); border-radius: 12px; padding: 18px 20px;
+            margin: 0 0 22px; font-size: 15px; color: var(--text);
+        }
+        .lead p { color: var(--text); margin: 0; }
+        .contact {
+            background: var(--bar); border-radius: 12px; padding: 20px 22px;
+            margin-top: 8px; text-align: center; font-size: 15px; color: var(--muted);
+        }
+        .contact .email { display: inline-block; margin-top: 6px; font-size: 18px; font-weight: 600; }
+        .links { text-align: center; margin-top: 28px; font-size: 14px; }
+        .links a { margin: 0 10px; }
+        .note {
+            font-size: 13px; color: var(--faint); border-top: 1px solid var(--border);
+            margin-top: 26px; padding-top: 16px;
+        }
+        footer { text-align: center; margin-top: 48px; font-size: 13px; color: var(--faint); }
+        @media (max-width: 600px) {
+            .wrap { padding: 24px 16px 60px; }
+            h1 { font-size: 26px; }
+            .card { padding: 22px 18px; }
+            table, th, td { font-size: 14px; }
+        }
+    </style>
+</head>
+<body>
+<div class="wrap">
+    <header>
+        <div class="brand">TwoUp</div>
+        <h1>Support</h1>
+        <div class="meta">Two panes on one iPhone screen</div>
+    </header>
+
+    <div class="card">
+        <h2>Get in touch</h2>
+        <p>
+            Questions about TwoUp, a bug, or anything about a purchase — write to us. One person
+            reads this mailbox, and you will normally get an answer within 1–2 business days.
+            Telling us your iOS version and what you were doing when something went wrong saves a
+            round trip.
+        </p>
+        <div class="contact">
+            Email us at<br>
+            <a class="email" href="mailto:dad.soft.mail@gmail.com">dad.soft.mail@gmail.com</a>
+        </div>
+
+        <h2>Frequently asked</h2>
+
+        <h3>What does TwoUp do?</h3>
+        <p>
+            It puts two panes on one iPhone screen — a web page, a PDF and a plain-text note in any
+            combination. A pair of panes is saved as a <strong>workspace</strong> and reopens in one
+            tap, including from the Home Screen through Shortcuts. On a foldable the layout follows
+            the actual screen geometry: it swaps between rows and columns without tearing the panes
+            down, so scroll position and note text survive an unfold.
+        </p>
+
+        <h3>What does TwoUp Pro unlock?</h3>
+        <p>
+            One thing: <strong>keeping more than one saved workspace</strong>. Everything else —
+            all three pane types, resizing the divider, launching from Shortcuts — works without
+            paying. Pro is sold two ways: a yearly subscription, or a one-time purchase that never
+            renews.
+        </p>
+
+        <h3>How do I cancel the subscription?</h3>
+        <p>
+            On your iPhone open <strong>Settings → your name → Subscriptions</strong>, pick TwoUp
+            and tap Cancel Subscription. Apple bills the next period unless you cancel
+            <strong>at least 24 hours before the current one ends</strong> — a free trial included.
+            The one-time purchase has nothing to cancel: it does not repeat.
+        </p>
+
+        <h3>I paid on another device — how do I get Pro back?</h3>
+        <p>
+            Open the Pro screen and tap <strong>Restore Purchases</strong>. As long as you are
+            signed in with the same Apple Account that made the purchase, it comes back at no
+            charge. Nothing is tied to an email address, because TwoUp has no accounts.
+        </p>
+
+        <h3>Where are my workspaces, notes and documents kept?</h3>
+        <p>
+            On your device, and nowhere else. TwoUp has no server and no sign-in, so nothing you
+            write or open is uploaded anywhere. The flip side is worth knowing: your data is not
+            synced between devices, and deleting the app deletes it. Details are in the
+            <a href="privacy-policy.html">Privacy Policy</a>.
+        </p>
+
+        <h3>Why doesn't an imported PDF appear on my other iPhone?</h3>
+        <p>
+            Importing copies the file into TwoUp on that device only, and those copies are
+            deliberately kept out of your iCloud backup — a 200 MB copy of a file you already have
+            in Files would bloat every backup you make. Your original stays where it was, and
+            re-importing it is one tap.
+        </p>
+
+        <h3>A site looks wrong or won't load in the web pane</h3>
+        <p>
+            The web pane uses the same engine as Safari, but some sites behave differently in a
+            narrow pane, and a few refuse to be embedded at all. If a site misbehaves, send us the
+            address — that is the kind of report we can act on.
+        </p>
+
+        <h3>How do I request a refund?</h3>
+        <p>
+            Refunds are handled by Apple, not by us. Go to
+            <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>, sign in and
+            pick the purchase. Write to us as well if something in the app caused it — we would
+            rather fix the reason.
+        </p>
+        <div class="links">
+            <a href="index.html">Support</a> ·
+            <a href="terms.html">Terms of Use</a> ·
+            <a href="privacy-policy.html">Privacy Policy</a>
+        </div>
+    </div>
+
+    <footer>
+        © 2026 TwoUp. All rights reserved.
+    </footer>
+</div>
+</body>
+</html>
